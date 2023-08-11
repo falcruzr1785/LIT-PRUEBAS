@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +13,8 @@
   "dependencies": {
     "lit": "^2.8.0",
     "live-server": "^1.2.2",
-    "node": "^20.5.0"
+    "node": "^20.5.0",
+    "sweetalert2": "^11.7.22"
   },
   "devDependencies": {
     "@web/dev-server": "^0.3.0",
