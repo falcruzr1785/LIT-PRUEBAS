@@ -16,5 +16,19 @@
 // }
 // customElements.define('lit-elements', LitElements);
 
-const doc = document.getElementById("doc");
-doc.innerHTML = "<h1> Hola </h1>";
+const data = {
+    title: 'Operación Exitosa',
+    message: 'El proceso se completó correctamente.',
+    status: 'success'
+};
+
+// Utilizamos Swal.fire para mostrar una ventana emergente
+Swal.fire(
+    data.title,
+    data.message,
+    data.status
+).then(() => {
+    if (data.status === 'success') {
+        console.log('Hacer algo después de una operación exitosa...');
+    }
+});
