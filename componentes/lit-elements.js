@@ -23,6 +23,6 @@ import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@8/src/sweetalert2.js'
 Swal.fire({
     title: 'Error!',
     text: 'Do you want to continue',
-    icon: 'error',
+    icon: 'alert',
     confirmButtonText: 'Cool'
   })
