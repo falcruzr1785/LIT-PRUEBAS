@@ -21,7 +21,7 @@ import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@8/src/sweetalert2.js'
 // customElements.define('lit-elements', LitElements);
 
 Swal.fire({
-    title: 'Error!',
+    title: 'el titulo!',
     text: 'Do you want to continue',
     icon: 'alert',
     confirmButtonText: 'Cool'
