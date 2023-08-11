@@ -17,4 +17,4 @@
 // customElements.define('lit-elements', LitElements);
 
 const doc = document.getElementById("doc");
-doc.innerHTML = "<h1> Hola </h1>´";
+doc.innerHTML = "<h1> Hola </h1>";
